@@ -3,6 +3,11 @@
     "path": "assets/images/foozle",
     "files": [
       {
+        "type": "image",  
+        "key": "clara",
+        "url": "clara.png"
+      },
+      {
         "type": "image",
         "key": "scout",
         "url": "scout.png"

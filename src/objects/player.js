@@ -46,7 +46,9 @@ export class Player extends Phaser.GameObjects.Container {
     this.body.setCollideWorldBounds(true);
     this.setDepth(2);
 
-    this.#shipSprite = scene.add.sprite(0, 0, 'ship');
+    this.#shipSprite = scene.add.sprite(0, 0, 'clara');
+    this.#shipSprite.setScale(0.2)
+
     this.#shipEngineSprite = scene.add.sprite(0, 0, 'ship_engine');
     this.#shipEngineThrusterSprite = scene.add.sprite(0, 0, 'ship_engine_thruster');
     this.#shipEngineThrusterSprite.play('ship_engine_thruster');
@@ -155,7 +157,8 @@ export class Player extends Phaser.GameObjects.Container {
     this.setVisible(true);
     this.#shipEngineSprite.setVisible(true);
     this.#shipEngineThrusterSprite.setVisible(true);
-    this.#shipSprite.setTexture('ship', 0);
+    this.#shipSprite.setTexture('clara', 0);
+    this.#shipSprite.setScale(0.2)
     this.#healthComponent.reset();
     this.setPosition(this.scene.scale.width / 2, this.scene.scale.height - 32);
     this.#keyboardInputComponent.lockInput = false;
