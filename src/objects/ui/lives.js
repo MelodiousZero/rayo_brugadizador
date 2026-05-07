@@ -23,8 +23,8 @@ export class Lives extends Phaser.GameObjects.Container {
     // create life icons
     for (let i = 0; i < this.#lives; i += 1) {
       const ship = scene.add
-        .image(i * 20, 0, 'ship')
-        .setScale(0.6)
+        .image(i * 20, 0, 'clara')
+        .setScale(0.08)
         .setOrigin(0);
       this.add(ship);
     }
