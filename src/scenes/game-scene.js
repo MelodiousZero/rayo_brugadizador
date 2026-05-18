@@ -25,9 +25,9 @@ export class GameScene extends Phaser.Scene {
    */
   create() {
     // backgrounds
-    this.add.sprite(0, 0, 'bg1', 0).setOrigin(0, 1).setAlpha(0.7).play('bg1').setAngle(90).setScale(1, 1.25);
-    this.add.sprite(0, 0, 'bg2', 0).setOrigin(0, 1).setAlpha(0.7).play('bg2').setAngle(90).setScale(1, 1.25);
-    this.add.sprite(0, 0, 'bg3', 0).setOrigin(0, 1).setAlpha(0.7).play('bg3').setAngle(90).setScale(1, 1.25);
+    this.add.image(0, 0, 'tlalpan').setOrigin(0, 0).setDisplaySize(this.scale.width, this.scale.height);
+    // or if you prefer to keep the original aspect ratio and fill the screen:
+    // bg.setScale(Math.max(this.scale.width / bg.width, this.scale.height / bg.height));
     // common components
     const eventBusComponent = new EventBusComponent();
 

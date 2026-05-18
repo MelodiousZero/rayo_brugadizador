@@ -3,7 +3,7 @@ import { CUSTOM_EVENTS, EventBusComponent } from '../components/events/event-bus
 import { HealthComponent } from '../components/health/health-component.js';
 import { KeyboardInputComponent } from '../components/input/keyboard-input-component.js';
 import { HorizontalMovementComponent } from '../components/movement/horizontal-movement-component.js';
-import { WeaponComponent } from '../components/weapon/weapon-component.js';
+import { WeaponComponent } from '../components/weapon/player-weapon-component.js';
 import * as CONFIG from '../config.js';
 
 /**

@@ -28,6 +28,12 @@
         "url": "bullet.png",
         "frameConfig": { "frameWidth": 32, "frameHeight": 32 }
       },
+       {
+        "type": "spritesheet",
+        "key": "rayo_brugadizador",
+        "url": "rayo_brugadizador.png",
+        "frameConfig": { "frameWidth": 100, "frameHeight": 100 }
+      },
       {
         "type": "spritesheet",
         "key": "fighter_engine",
@@ -75,6 +81,13 @@
         "key": "bg3",
         "url": "bg3.png",
         "frameConfig": { "frameWidth": 640, "frameHeight": 360 }
+      },
+      {
+        "type": "image",
+        "key": "tlalpan",
+        "url": "tlalpan_final.png",
+        "frameConfig": { "frameWidth": 640, "frameHeight": 360 }
+
       },
       {
         "type": "spritesheet",
