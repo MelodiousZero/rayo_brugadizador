@@ -3,6 +3,31 @@
     "path": "assets/images/foozle",
     "files": [
       {
+        "type": "image",
+        "key": "a_button",
+        "url": "a_button.png"
+      },
+      {
+        "type": "image",
+        "key": "left",
+        "url": "left.png"
+      },
+      {
+        "type": "image",
+        "key": "right",
+        "url": "right.png"
+      },
+      {
+        "type": "image",
+        "key": "up",
+        "url": "up.png"
+      },
+      {
+        "type": "image",
+        "key": "down",
+        "url": "down.png"
+      },
+      {
         "type": "image",  
         "key": "clara",
         "url": "clara.png"
